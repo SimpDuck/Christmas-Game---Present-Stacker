@@ -1,0 +1,33 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "539b7574-189e-4d81-b406-7553842a7d15",
+            "actions": [
+                {
+                    "name": "Touch Input",
+                    "type": "PassThrough",
+                    "id": "11dd2c7b-a443-4c81-ae61-c0aeba4f535e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d9267362-cc34-48bf-adff-8499c62d45c3",
+                    "path": "<Touchscreen>/press",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch Input",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
